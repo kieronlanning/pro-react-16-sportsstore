@@ -6,6 +6,8 @@
 # ignore generated binaries
 # but not the data folder
 
+data.js
+
 /bin/*
 !/bin/data/
 
@@ -372,7 +374,7 @@ typings/
 *.css
 *.htm
 *.html
-*.js
+#*.js
 *.jsp
 *.php
 *.rss
