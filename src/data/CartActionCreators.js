@@ -12,7 +12,7 @@ export const updateCartQuantity = (product, quantity) => ({
     type: ActionTypes.CART_UPDATE,
     payload: {
         product,
-        quantity
+        quantity: parseInt(quantity || 0)
     }
 });
 

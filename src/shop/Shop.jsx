@@ -6,7 +6,7 @@ import { CartSummary } from "./CartSummary";
 
 export class Shop extends React.Component {
     handleAddToCart = (...args) => {
-        this.props.addToCart(args);
+        this.props.addToCart(...args);
         this.props.history.push("/shop/cart");
     };
 

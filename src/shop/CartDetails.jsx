@@ -40,8 +40,8 @@ export class CartDetails extends React.Component {
 };
 
 CartDetails.propTypes = {
-    cartItems: PropTypes.number.isRequired,
     cart: PropTypes.array.isRequired,
+    cartItems: PropTypes.number.isRequired,
     cartPrice: PropTypes.number.isRequired,
     updateCartQuantity: PropTypes.func.isRequired,
     removeFromCart: PropTypes.func.isRequired

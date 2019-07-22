@@ -6,7 +6,7 @@ export class CartSummary extends React.Component {
     getSummary = () => {
         if (this.props.cartItems > 0) {
             return <span>
-                { this.props.cartItems } items(s),
+                { this.props.cartItems } item(s),
                 ${ this.props.cartPrice.toFixed(2) }
             </span>
         }
@@ -16,7 +16,7 @@ export class CartSummary extends React.Component {
     };
 
     getLinkClasses = () => {
-        return `btn btn-sm bg-dark text-white ${this.props.cart1Items === 0 ? "disabled" : ""}`;
+        return `btn btn-sm bg-dark text-white ${this.props.cartItems === 0 ? "disabled" : ""}`;
     };
 
     render = () => {
