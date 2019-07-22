@@ -371,7 +371,7 @@ typings/
 *.asp
 *.cer
 *.csr
-*.css
+#*.css
 *.htm
 *.html
 #*.js
@@ -379,5 +379,6 @@ typings/
 *.php
 *.rss
 *.xhtml
+!data.js
 
 # End of https://www.gitignore.io/api/web,reactnative,visualstudiocode,openframeworks+visualstudio
