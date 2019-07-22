@@ -372,8 +372,8 @@ typings/
 *.cer
 *.csr
 #*.css
-*.htm
-*.html
+#*.htm
+#*.html
 #*.js
 *.jsp
 *.php
